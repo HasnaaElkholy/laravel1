@@ -18,7 +18,7 @@ Route::get(
     function (){
         $user = [
             'country' => 'Egypt',
-            'names' => ['hasnaa','hager','safaa','Melok']
+            'names' => ['Hasnaa','Hager','Safaa','Melok']
         ];
 
         return view ('test', $user);
